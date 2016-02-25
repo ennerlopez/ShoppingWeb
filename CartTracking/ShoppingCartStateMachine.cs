@@ -4,7 +4,6 @@ namespace CartTracking
     using Automatonymous;
     using Shopping.Contracts;
 
-
     public class ShoppingCartStateMachine :
         MassTransitStateMachine<ShoppingCart>
     {
